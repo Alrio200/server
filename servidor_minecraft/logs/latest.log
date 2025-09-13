@@ -56,3 +56,8 @@
 [22:08:51] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 59912dca-8de7-4c16-a8ad-ea2d332c4f2b, mapped to Bee['Bee'/295, uuid='59912dca-8de7-4c16-a8ad-ea2d332c4f2b', l='ServerLevel[world]', x=354.77, y=98.78, z=-1048.27, cpos=[22, -66], tl=0, v=true], can't add Bee['Bee'/309, uuid='59912dca-8de7-4c16-a8ad-ea2d332c4f2b', l='ServerLevel[world]', x=364.32, y=100.11, z=-1083.75, cpos=[22, -68], tl=0, v=false]
 [22:09:19] [Server thread/INFO]: Vikingo12bacan issued server command: /tp vikingo12bacan a santipro
 [22:17:04] [Server thread/INFO]: santipro was slain by Zombie
+[22:19:10] [Server thread/INFO]: Vikingo12bacan has made the advancement [Sweet Dreams]
+[22:19:14] [Async Chat Thread - #1/INFO]: [Not Secure] <Vikingo12bacan> }
+[22:20:27] [Server thread/INFO]: santipro was doomed to fall by Skeleton
+[22:24:20] [Server thread/INFO]: santipro was doomed to fall by Skeleton
+[22:25:36] [Server thread/INFO]: santipro was slain by Zombie
