@@ -1,83 +1,47 @@
-[22:08:12] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[22:08:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[22:08:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:08:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[22:08:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:08:24] [ServerMain/INFO]: Loaded 1407 recipes
-[22:08:24] [ServerMain/INFO]: Loaded 1520 advancements
-[22:08:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[22:08:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 594.1ms
-[22:08:25] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[22:08:25] [Server thread/INFO]: Loading properties
-[22:08:25] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[22:08:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:08:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:08:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:08:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:08:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:08:28] [Server thread/INFO]: Default game type: SURVIVAL
-[22:08:28] [Server thread/INFO]: Generating keypair
-[22:08:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:08:28] [Server thread/INFO]: Using epoll channel type
-[22:08:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:08:28] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[22:08:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:08:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:08:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:08:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:08:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:08:28] [Server thread/INFO]: Preparing level "world"
-[22:08:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:08:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:08:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:08:30] [Server thread/INFO]: Preparing spawn area: 2%
-[22:08:31] [Server thread/INFO]: Preparing spawn area: 53%
-[22:08:31] [Server thread/INFO]: Time elapsed: 1982 ms
-[22:08:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:08:31] [Server thread/INFO]: Preparing spawn area: 0%
-[22:08:32] [Server thread/INFO]: Preparing spawn area: 28%
-[22:08:32] [Server thread/INFO]: Time elapsed: 621 ms
-[22:08:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:08:32] [Server thread/INFO]: Preparing spawn area: 0%
-[22:08:32] [Server thread/INFO]: Time elapsed: 379 ms
-[22:08:33] [Server thread/INFO]: [spark] Starting background profiler...
-[22:08:34] [Server thread/INFO]: Done preparing level "world" (5.458s)
-[22:08:34] [Server thread/INFO]: Running delayed init tasks
-[22:08:34] [Server thread/INFO]: Done (23.815s)! For help, type "help"
-[22:08:34] [User Authenticator #0/INFO]: UUID of player santipro is b18679da-6bc8-367a-a0b0-96eb52d167c3
-[22:08:35] [Server thread/INFO]: santipro joined the game
-[22:08:35] [Server thread/INFO]: santipro[/127.175.119.106:51897] logged in with entity id 19 at ([world]190.31938064364348, 61.0, -947.1188232182723)
-[22:08:43] [User Authenticator #0/INFO]: UUID of player Vikingo12bacan is b55c494d-bb2f-3294-b57b-d6970b088c1b
-[22:08:44] [Server thread/INFO]: Vikingo12bacan joined the game
-[22:08:45] [Server thread/INFO]: Vikingo12bacan[/127.117.119.57:46153] logged in with entity id 227 at ([world]161.79717077535543, 80.0, -906.6172113238653)
-[22:08:51] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f391d0bc-1bc3-4a10-9bf1-d47f7ffa0c41, mapped to Chicken['Chicken'/237, uuid='f391d0bc-1bc3-4a10-9bf1-d47f7ffa0c41', l='ServerLevel[world]', x=256.77, y=70.00, z=-1098.83, cpos=[16, -69], tl=0, v=true], can't add Chicken['Chicken'/280, uuid='f391d0bc-1bc3-4a10-9bf1-d47f7ffa0c41', l='ServerLevel[world]', x=260.00, y=69.00, z=-1106.00, cpos=[16, -70], tl=0, v=false]
-[22:08:51] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 784f73ee-3d58-4a15-ac51-2983adfeba98, mapped to Chicken['Chicken'/236, uuid='784f73ee-3d58-4a15-ac51-2983adfeba98', l='ServerLevel[world]', x=262.12, y=70.00, z=-1101.88, cpos=[16, -69], tl=0, v=true], can't add Chicken['Chicken'/282, uuid='784f73ee-3d58-4a15-ac51-2983adfeba98', l='ServerLevel[world]', x=256.40, y=69.00, z=-1105.00, cpos=[16, -70], tl=0, v=false]
-[22:08:51] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cd3fde20-0b40-4747-b9dd-73edaf9dae36, mapped to Bee['Bee'/299, uuid='cd3fde20-0b40-4747-b9dd-73edaf9dae36', l='ServerLevel[world]', x=360.25, y=88.94, z=-1070.65, cpos=[22, -67], tl=0, v=true], can't add Bee['Bee'/302, uuid='cd3fde20-0b40-4747-b9dd-73edaf9dae36', l='ServerLevel[world]', x=343.19, y=102.04, z=-1078.66, cpos=[21, -68], tl=0, v=false]
-[22:08:51] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 59912dca-8de7-4c16-a8ad-ea2d332c4f2b, mapped to Bee['Bee'/295, uuid='59912dca-8de7-4c16-a8ad-ea2d332c4f2b', l='ServerLevel[world]', x=354.77, y=98.78, z=-1048.27, cpos=[22, -66], tl=0, v=true], can't add Bee['Bee'/309, uuid='59912dca-8de7-4c16-a8ad-ea2d332c4f2b', l='ServerLevel[world]', x=364.32, y=100.11, z=-1083.75, cpos=[22, -68], tl=0, v=false]
-[22:09:19] [Server thread/INFO]: Vikingo12bacan issued server command: /tp vikingo12bacan a santipro
-[22:17:04] [Server thread/INFO]: santipro was slain by Zombie
-[22:19:10] [Server thread/INFO]: Vikingo12bacan has made the advancement [Sweet Dreams]
-[22:19:14] [Async Chat Thread - #1/INFO]: [Not Secure] <Vikingo12bacan> }
-[22:20:27] [Server thread/INFO]: santipro was doomed to fall by Skeleton
-[22:24:20] [Server thread/INFO]: santipro was doomed to fall by Skeleton
-[22:25:36] [Server thread/INFO]: santipro was slain by Zombie
-[22:30:57] [Server thread/INFO]: Vikingo12bacan was shot by Skeleton
-[22:31:27] [Server thread/INFO]: Vikingo12bacan lost connection: Disconnected
-[22:31:27] [Server thread/INFO]: Vikingo12bacan left the game
-[22:32:55] [User Authenticator #1/INFO]: UUID of player Vikingo12bacan is b55c494d-bb2f-3294-b57b-d6970b088c1b
-[22:32:56] [Server thread/INFO]: Vikingo12bacan joined the game
-[22:32:56] [Server thread/INFO]: Vikingo12bacan[/127.117.119.57:38419] logged in with entity id 8917 at ([world]720.177877143767, -24.0, -1136.6009431148907)
-[22:33:07] [Server thread/INFO]: Vikingo12bacan lost connection: Disconnected
-[22:33:07] [Server thread/INFO]: Vikingo12bacan left the game
-[22:35:41] [User Authenticator #2/INFO]: UUID of player Vikingo12bacan is b55c494d-bb2f-3294-b57b-d6970b088c1b
-[22:35:42] [Server thread/INFO]: Vikingo12bacan joined the game
-[22:35:42] [Server thread/INFO]: Vikingo12bacan[/127.117.119.57:38337] logged in with entity id 9597 at ([world]716.5958572819654, -29.0, -1135.300000011921)
-[22:39:18] [Server thread/INFO]: santipro fell from a high place
-[22:39:43] [Server thread/INFO]: Vikingo12bacan has made the advancement [Suit Up]
-[22:40:10] [Server thread/INFO]: santipro was slain by Zombie
-[22:41:53] [Server thread/INFO]: santipro was slain by Zombie
-[22:45:26] [Server thread/INFO]: santipro drowned
-[22:45:41] [Async Chat Thread - #2/INFO]: [Not Secure] <Vikingo12bacan> des dsee
-[22:46:26] [Server thread/INFO]: Vikingo12bacan has made the advancement [Take Aim]
-[22:57:57] [Server thread/INFO]: Vikingo12bacan lost connection: Disconnected
-[22:57:57] [Server thread/INFO]: Vikingo12bacan left the game
+[18:36:14] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[18:36:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[18:36:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:36:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[18:36:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:36:27] [ServerMain/INFO]: Loaded 1407 recipes
+[18:36:27] [ServerMain/INFO]: Loaded 1520 advancements
+[18:36:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:36:28] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 677.4ms
+[18:36:28] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[18:36:28] [Server thread/INFO]: Loading properties
+[18:36:28] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[18:36:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:36:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:36:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:36:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:36:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:36:30] [Server thread/INFO]: Default game type: SURVIVAL
+[18:36:30] [Server thread/INFO]: Generating keypair
+[18:36:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:36:30] [Server thread/INFO]: Using epoll channel type
+[18:36:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:36:30] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[18:36:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:36:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:36:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:36:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:36:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:36:30] [Server thread/INFO]: Preparing level "world"
+[18:36:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:36:32] [Server thread/INFO]: Preparing spawn area: 0%
+[18:36:32] [Server thread/INFO]: Preparing spawn area: 2%
+[18:36:32] [Server thread/INFO]: Preparing spawn area: 2%
+[18:36:33] [Server thread/INFO]: Preparing spawn area: 26%
+[18:36:33] [Server thread/INFO]: Time elapsed: 1992 ms
+[18:36:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:36:33] [Server thread/INFO]: Preparing spawn area: 0%
+[18:36:34] [Server thread/INFO]: Preparing spawn area: 42%
+[18:36:34] [Server thread/INFO]: Time elapsed: 560 ms
+[18:36:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:36:34] [Server thread/INFO]: Preparing spawn area: 0%
+[18:36:34] [Server thread/INFO]: Preparing spawn area: 42%
+[18:36:35] [Server thread/INFO]: Time elapsed: 624 ms
+[18:36:35] [Server thread/INFO]: [spark] Starting background profiler...
+[18:36:36] [Server thread/INFO]: Done preparing level "world" (5.450s)
+[18:36:36] [Server thread/INFO]: Running delayed init tasks
+[18:36:36] [Server thread/INFO]: Done (23.558s)! For help, type "help"
