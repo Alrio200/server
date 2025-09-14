@@ -50,3 +50,8 @@
 [18:52:10] [Server thread/INFO]: santipro[/127.175.119.106:41179] logged in with entity id 19 at ([world]686.3000000119209, 114.0, -840.6999999880791)
 [19:05:09] [Server thread/INFO]: santipro lost connection: Disconnected
 [19:05:09] [Server thread/INFO]: santipro left the game
+[19:07:45] [User Authenticator #1/INFO]: UUID of player huliGUN777 is f824706d-40f4-3a9c-a099-f3106fb31d82
+[19:07:46] [Server thread/INFO]: huliGUN777 joined the game
+[19:07:46] [Server thread/INFO]: huliGUN777[/127.103.110.91:34035] logged in with entity id 1380 at ([world]377.5, 76.0, -573.5)
+[19:10:54] [Server thread/INFO]: huliGUN777 lost connection: Disconnected
+[19:10:54] [Server thread/INFO]: huliGUN777 left the game
